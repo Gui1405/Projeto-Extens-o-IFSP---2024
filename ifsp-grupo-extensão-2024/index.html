@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IFSP</title>
+  <meta name="title" content="IFSP">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/images/logo-logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <header id="header">
+    <div class="left">
+      <a href="#top"><img src="assets/images/Logo do Instituto Federal de São Paulo.png"
+          alt="Logo do Instituto Federal de São Paulo" id="logo"></a>
+    </div>
+    <div class="center">
+      <nav>
+        <ul>
+          <li><a href="#top"> Home</a></li>
+          <li><a href="#alunos">Alunos</a></li>
+          <li><a href="#desenvolvimento">Desenvolvimento</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#partesprod">Partes do Projeto</a></li>
+          <li><a href="#dados">Dados</a></li>
+          <li><a href="#conclusao">Conclusão</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="section hero has-bg-image" aria-label="home" id="img1">
+        <div class="container">
+          <div class="hero-content">
+            <h1 id="home" class="h1 hero-title">Projeto Anemômetro e Direção dos Ventos</h1>
+            <p class="hero-text">
+              Este projeto desenvolve um anemômetro simples e acessível para medir a velocidade e direção do vento,
+              utilizando um Arduino Mega 2560 e componentes acessíveis. A estrutura inclui um motor DC, que mede a
+              velocidade do vento por meio da rotação de suas pás, e um sensor Hall, que captura mudanças magnéticas
+              para identificar a direção do vento. Os dados são processados pelo Arduino e exibidos no monitor serial,
+              formando um sistema eficiente de monitoramento da velocidade e direção do vento.
+              <br>
+              <strong> Turma de Engenharia da Computação (ECO/IFSP - GRU) - 2024 </strong>
+            </p>
+          </div>
+          <div class="hero-slider">
+            <div class="slider-inner">
+              <ul class="slider-container">
+                <li class="slider-item">
+                  <figure class="img-holder">
+                    <img src="./assets/images/desenho_anemometro.jpeg" alt="Desenho anemômetro" class="img-cover">
+                  </figure>
+                </li>
+                <li class="slider-item">
+                  <div class="hero-card">
+                    <figure class="img-holder">
+                      <video controls src="./assets/images/apresentação.mp4" class="img-cover"></video>
+                    </figure>
+                  </div>
+                </li>
+                <li class="slider-item">
+                  <figure class="img-holder">
+                    <img src="./assets/images/yuri.jpeg" alt="Yuri" class="img-cover">
+                  </figure>
+                </li>
+                <li class="slider-item">
+                  <figure class="img-holder">
+                    <img src="./assets/images/projetao.jfif" alt="Projeto" class="img-cover">
+                  </figure>
+                </li>
+                <li class="slider-item">
+                  <figure class="img-holder">
+                    <img src="./assets/images/note.jfif" alt="Computador" class="img-cover">
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <button class="slider-btn prev" aria-label="slide to previous">
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+            <button class="slider-btn next" aria-label="slide to next">
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section service" aria-labelledby="service-label">
+
+        <div class="container">
+          <h2 class="h2 section-title" id="alunos">
+            Alunos participantes do projeto
+          </h2>
+          <div class="grid-list">
+            <div class="service-card">
+              <img src="assets/images/gui.jpg" alt="Gui">
+              <p>Guilherme Barroso</p>
+              <p class="gu">GU3054101</p>
+            </div>
+            <div class="service-card">
+              <img src="assets/images/luan.jpg" alt="Luan">
+              <p>Luan Patrique</p>
+              <p class="gu">GU3055256</p>
+            </div>
+            <div class="service-card">
+              <img src="assets/images/kaua.jpg" alt="Kauã">
+              <p>Kauã Gabriel</p>
+              <p class="gu">GU305506X</p>
+            </div>
+            <div class="service-card">
+              <img src="assets/images/antoin.jpg" alt="Antonio">
+              <p>Antonio Henrique</p>
+              <p class="gu">GU3053946</p>
+            </div>
+            <div class="service-card">
+              <img src="assets/images/yuri2.jpg" alt="Yuri">
+              <p>Yuri Forkel</p>
+              <p class="gu">GU3053831</p>
+            </div>
+            <div class="service-card">
+              <img src="assets/images/matoso.jpg" alt="Matos">
+              <p>Guilherme Matos</p>
+              <p class="gu">GU3054179</p>
+            </div>
+            <div class="service-card">
+              <img src="assets/images/anderson.jpg" alt="Anderson">
+              <p>Anderson Carvalho</p>
+              <p class="gu">GU3055078</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="about" aria-labelledby="about-label">
+
+        <div class="container">
+          <figure class="about-banner">
+            <img src="./assets/images/projeto_pronto.jpeg" alt="Projeto Pronto" class="w-100">
+          </figure>
+          <div class="about-content">
+            <p class="section-subtitle" id="desenvolvimento">Desenvolvimento do projeto</p>
+            <h2 class="h2 section-title">
+              Etapas da criação do anemômetro e da biruta:
+            </h2>
+            <ul>
+              <li class="about-item">
+                <div class="accordion-card expanded">
+                  <h3 class="card-title">
+                    <button class="accordion-btn">
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <spna class="span h5">Ideias iniciais</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    Nas primeiras idéias do projeto, o motor iria funcionar como um gerador. A partir disso, quanto mais
+                    vento, mais corrente iria ultrapassar os resistores, acendendo o painel de led específico. Essa
+                    idéia foi descartada pelo número de led que queria utilizados e a imprecisão das medidas.
+                  </p>
+                </div>
+              </li>
+              <li class="about-item">
+                <div class="accordion-card">
+                  <h3 class="card-title">
+                    <button class="accordion-btn">
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Esqueleto</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    Em um anemômetro que utiliza ambos os dispositivos, a hélice mede a velocidade do vento enquanto a
+                    biruta indica sua direção. Juntas, essas duas partes fornecem uma leitura completa das condições do
+                    vento em um dado momento, sendo muito utilizadas em meteorologia, engenharia e em diversas outras
+                    áreas que necessitam de dados sobre o clima e o comportamento do vento.
+                  </p>
+                </div>
+              </li>
+              <li class="about-item">
+                <div class="accordion-card">
+                  <h3 class="card-title">
+                    <button class="accordion-btn">
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <spna class="span h5">Arduino</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    O Arduino é essencial no projeto de medição de direção e velocidade dos ventos, integrando sensores
+                    e processando os dados. Ele utiliza um motor DC com sensor Hall para detectar a direção do vento e
+                    mede a velocidade com base na rotação do motor. O Arduino Mega 2560 realiza os cálculos e transmite
+                    os dados para análise em tempo real, destacando-se pela flexibilidade e eficiência em projetos
+                    educacionais e de engenharia.
+                  </p>
+                </div>
+              </li>
+
+
+              <li class="about-item">
+                <div class="accordion-card">
+                  <h3 class="card-title">
+                    <button class="accordion-btn">
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <spna class="span h5">Sensor Hall para Filtragem de Pulsos</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    O sensor Hall detecta o campo magnético gerado por um ímã em movimento, gerando pulsos que são lidos
+                    pelo Arduino. Cada pulso representa uma rotação do motor, o que está diretamente relacionado à
+                    velocidade do vento. Para garantir precisão, o código filtra pulsos indesejados, ignorando aqueles
+                    gerados por flutuações ou ruído, utilizando técnicas de debouncing e filtragem de pulsos.
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card">
+                  <h3 class="card-title">
+                    <button class="accordion-btn">
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <spna class="span h5">Cálculo da Velocidade do Vento</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    Com os pulsos filtrados, o Arduino calcula a frequência dos pulsos, convertendo-a em uma medida de
+                    velocidade. Cada rotação do motor corresponde a uma mudança na intensidade do vento, e a frequência
+                    dos pulsos pode ser convertida para uma unidade de medida como metros por segundo ou quilômetros por
+                    hora. <br>A fórmula para o cálculo da velocidade do vento (v) é dada por:
+                    <Br><code><strong>v = d / t</strong></code><br>Onde:
+                    <br>
+                    <strong>d</strong> é o deslocamento (em metros),
+                    <br>
+                    <strong>t</strong> é o tempo (em segundos).
+                    <br>
+                    <br>
+                    <strong>Referência:</strong> "Introduction to Meteorology" (Autor: Stephen J. Bigg, Editora:
+                    Routledge, 2014).
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card">
+                  <h3 class="card-title">
+                    <button class="accordion-btn">
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <span class="span h5">Sensor QMC5883L para Direção Cardeal</span>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    O sensor QMC5883L, um magnetômetro de três eixos, é responsável por detectar a direção do vento. Ele
+                    mede a intensidade do campo magnético nos eixos X, Y e Z. Com esses valores, o Arduino calcula o
+                    ângulo da direção do vento em relação ao norte magnético da Terra, utilizando a fórmula de arco
+                    tangente:
+                    <br><br>
+                    <code><strong>&theta; = atan2(Y, X)</strong></code>
+                    <br>Onde:
+                    <br>
+                    <strong>Y</strong> e <strong>X</strong> são os valores de campo magnético nos eixos Y e X,
+                    respectivamente.
+                    <br>Esse ângulo é então mapeado para uma direção cardinal, como Norte, Sul, Leste e Oeste.
+                    <br><br>
+                    <strong>Referência:</strong> "Meteorological Instrumentation" (Autor: Edward R. Sproles, Editora:
+                    Academic Press, 2018).
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card">
+                  <h3 class="card-title">
+                    <button class="accordion-btn">
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <span class="span h5">Fórmula de Força do Vento</span>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    A fórmula para calcular a força do vento, que pode ser usada para determinar a intensidade do vento
+                    com base na área exposta e na velocidade, é dada por:
+                    <br><br>
+                    <code><strong>F = 1/2 ρ A v²</strong></code>
+                    <br>Onde:
+                    <br>
+                    <strong>ρ</strong> é a densidade do ar (aproximadamente 1,225 kg/m³ ao nível do mar),
+                    <br>
+                    <strong>A</strong> é a área da superfície exposta (em m²),
+                    <br>
+                    <strong>v</strong> é a velocidade do vento (em m/s).
+                    <br><br>
+                    <strong>Referência:</strong> "Introduction to Meteorology" (Autor: Stephen J. Bigg, Editora:
+                    Routledge, 2014).
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card">
+                  <h3 class="card-title">
+                    <button class="accordion-btn">
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <span class="span h5">Fórmula de Frequência de Rotação do Anemômetro</span>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    A fórmula para a frequência de rotação do anemômetro, que determina quantas rotações o anemômetro
+                    faz por segundo, é dada por:
+                    <br><br>
+                    <code><strong>f = N / t</strong></code>
+                    <br>Onde:
+                    <br>
+                    <strong>N</strong> é o número de rotações do anemômetro,
+                    <br>
+                    <strong>t</strong> é o tempo (em segundos).
+                    <br><br>
+                    <strong>Referência:</strong> "Meteorological Instrumentation" (Autor: Edward R. Sproles, Editora:
+                    Academic Press, 2018).
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card">
+                  <h3 class="card-title">
+                    <button class="accordion-btn">
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <span class="span h5">Integração Final</span>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    Com a combinação de sensores de velocidade e direção, o sistema fornece uma visão completa das
+                    condições do vento. O Arduino processa os dados em tempo real, transmitindo a velocidade do vento
+                    baseada na rotação do motor DC e a direção do vento através do magnetômetro QMC5883L. Isso resulta
+                    em um dispositivo preciso e eficiente para medir e monitorar o vento, amplamente útil em áreas como
+                    meteorologia e engenharia.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="time" id="timeline">
+        <br>
+        <h3>Nossa Timeline de Desenvolvimento</h3>
+        <br>
+        <div class="timeline">
+
+          <div class="timeline__component timeline__component--bg">
+            <h2 class="timeline__title">Conceito Inicial</h2>
+            <p class="timeline__paragraph">
+              Ideia inicial do projeto de medir velocidade e direção dos ventos, incluindo o desenvolvimento do site e
+              definição dos componentes necessários.
+            </p>
+          </div>
+          <div class="timeline__middle">
+            <div class="timeline__point"></div>
+          </div>
+          <div class="timeline__component">
+            <div class="timeline__date">12 de Novembro de 2024</div>
+          </div>
+
+
+          <div class="timeline__component">
+            <div class="timeline__date timeline__date--right">15 de Novembro de 2024</div>
+          </div>
+          <div class="timeline__middle">
+            <div class="timeline__point"></div>
+          </div>
+          <div class="timeline__component timeline__component--bg">
+            <h2 class="timeline__title">Desenvolvimento do Sensor</h2>
+            <p class="timeline__paragraph">
+              Implementação do sensor de direção do vento utilizando motor DC e sensor Hall, iniciando a integração com
+              o Arduino Mega 2560.
+            </p>
+          </div>
+
+          <div class="timeline__component timeline__component--bg">
+            <h2 class="timeline__title">Testes de Velocidade</h2>
+            <p class="timeline__paragraph">
+              Primeiros testes de medição de velocidade do vento utilizando motor DC e validação dos resultados no
+              monitor serial do Arduino.
+            </p>
+          </div>
+          <div class="timeline__middle">
+            <div class="timeline__point"></div>
+          </div>
+          <div class="timeline__component">
+            <div class="timeline__date">17 de Novembro de 2024</div>
+          </div>
+
+          <div class="timeline__component">
+            <div class="timeline__date timeline__date--right">22 de Novembro de 2024</div>
+          </div>
+          <div class="timeline__middle">
+            <div class="timeline__point"></div>
+          </div>
+          <div class="timeline__component timeline__component--bg">
+            <h2 class="timeline__title">Direção dos Ventos</h2>
+            <p class="timeline__paragraph">
+              Implementação do sensor de direção do vento utilizando o QMC5883L, iniciando a integração com o Arduino
+              Mega 2560.
+            </p>
+          </div>
+
+          <div class="timeline__component timeline__component--bottom timeline__component--bg">
+            <h2 class="timeline__title">Conclusão do Projeto</h2>
+            <p class="timeline__paragraph">
+              Finalização do site para apresentação do projeto, destacando a funcionalidade do sistema e os aprendizados
+              durante o desenvolvimento.
+            </p>
+          </div>
+          <div class="timeline__middle">
+            <div class="timeline__point"></div>
+            <div class="timeline__point timeline__point--bottom"></div>
+          </div>
+          <div class="timeline__component timeline__component--bottom">
+            <div class="timeline__date">23 de Novembro de 2024</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section project" aria-labelledby="project-label">
+
+        <div class="container">
+          <h2 class="h2 section-title" id="partesprod">
+            Nosso projeto por partes
+          </h2>
+          <ul class="grid-list">
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <img src="./assets/images/bussola-maritima.png" alt="Biruta marítima" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Biruta</a>
+                  </h3>
+                  <p class="card-text">
+                    A biruta é projetada para se mover com a direção do vento, fornecendo uma indicação visual de sua
+                    intensidade e direção. Essa dinâmica de movimento pode ter sido uma inspiração para a construção de
+                    sensores em anemômetros modernos, como os de copo ou de hélice, que também respondem à força do
+                    vento e podem gerar um sinal proporcional à sua velocidade.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <img src="./assets/images/arduino-mega-cabo-usb.jpg" alt="Arduino" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Arduino Mega</a>
+                  </h3>
+                  <p class="card-text">
+                    O Arduino conta o número de pulsos gerados pelo movimento da hélice ao longo do tempo e, com base
+                    nessa frequência, calcula a velocidade do vento. A leitura é então enviada para um computador, assim
+                    código no Arduino converte os pulsos em uma medida de velocidade, normalmente em metros por segundo
+                    (m/s) ou quilômetros por hora (km/h).
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder">
+                  <img src="./assets/images/bussola_magnetica.jpg" alt="Bússola Magnética" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Bússola</a>
+                  </h3>
+                  <p class="card-text">
+                    A Bússola Magnética foi usada para determinar a direção do campo magnético terrestre. Em um
+                    anemômetro digital, ela pode ser usada para identificar a orientação do vento, determinando de onde
+                    ele está vindo. Sensores de magnetômetro podem ser usados para medir o ângulo do vento em relação ao
+                    norte magnético.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </section>
+
+      <section class="stats" aria-label="our stats">
+
+        <div class="container" id="dados">
+          <ul class="stats-card has-bg-image" id="img2">
+            <li>
+              <p class="card-text">
+                <span class="h1">Dias recentes</span>
+                <spna class="span">Escolha o dia que deseja ver a velocidade e direção do vento</spna>
+              </p>
+            </li>
+          </ul>
+        </div>
+
+      </section>
+
+      <section>
+
+        <div class="resultados">
+          <div class="menu">
+            <select name="" id="name">
+              <option value="stand" selected>Selecione uma data</option>
+              <option value="dia1">14/11/2024</option>
+              <option value="dia2">15/11/2024</option>
+              <option value="dia3">16/11/2024</option>
+              <option value="dia4">17/11/2024</option>
+              <option value="dia5">18/11/2024</option>
+              <option value="dia6">19/11/2024</option>
+            </select>
+          </div>
+          <div class="content">
+            <div id="dia1" class="data">
+              <p><b>Velocidade Média dos Ventos:</b><span>11km/h</span></p>
+              <p><b>Direção Predominante dos Ventos:</b><span>Norte</span></p>
+            </div>
+            <div id="dia2" class="data">
+              <p><b>Velocidade Média dos Ventos:</b><span>11km/h</span></p>
+              <p><b>Direção Predominante dos Ventos:</b><span>Sudoeste</span></p>
+            </div>
+            <div id="dia3" class="data">
+              <p><b>Velocidade Média dos Ventos:</b><span>11km/h</span></p>
+              <p><b>Direção Predominante dos Ventos:</b><span>Sul</span></p>
+            </div>
+            <div id="dia4" class="data">
+              <p><b>Velocidade Média dos Ventos:</b><span>11km/h</span></p>
+              <p><b>Direção Predominante dos Ventos:</b><span>Leste</span></p>
+            </div>
+            <div id="dia5" class="data">
+              <p><b>Velocidade Média dos Ventos:</b><span>11km/h</span></p>
+              <p><b>Direção Predominante dos Ventos:</b><span>Oeste</span></p>
+            </div>
+            <div id="dia6" class="data">
+              <p><b>Velocidade Média dos Ventos:</b><span>11km/h</span></p>
+              <p><b>Direção Predominante dos Ventos:</b><span>Nordeste</span></p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section feature" aria-labelledby="feature-label">
+
+        <div class="container">
+          <figure class="feature-banner">
+            <img src="./assets/images/desenho_biruta.jpeg" alt="Desenho Biruta" class="w-100">
+          </figure>
+          <div class="feature-content">
+            <h2 class="h2 section-title" id="conclusao">
+              Conclusão
+            </h2>
+            <p class="section-text">
+              Este anemômetro desenvolvido com Arduino Mega 2560 oferece uma solução acessível e eficiente para medir a
+              velocidade e direção do vento. A escolha de componentes simples, como o motor DC e o sensor Hall, garante
+              a facilidade de construção e implementação, além de proporcionar resultados precisos no monitoramento do
+              vento. O projeto demonstra como tecnologias básicas podem ser combinadas para criar sistemas úteis e
+              funcionais, servindo como uma excelente base para futuras melhorias e aplicações em diferentes áreas, como
+              climatologia, agricultura e automação.
+            </p>
+            <ul class="feature-list">
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    Desenvolveu-se um anemômetro funcional com Arduino para medir a velocidade do vento.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    A hélice foi integrada para capturar as rotações e calcular a velocidade do vento.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    O sensor hall foi usado para contar as rotações da hélice.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    A direção do vento foi monitorada por um magnetômetro.
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-copy">
+      <p>&copy; 2024 Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
